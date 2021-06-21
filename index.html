@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project 80</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <!--font-family: 'Josefin Sans', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <!--font-family: 'Raleway', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <center>
+    <!--Style the h1 with Small-Caps-->
+    <h1>Guest List</h1>
+    <span>
+        <input id="guest_input" type="text" placeholder="Name of the Guest..."> &nbsp; &nbsp; &nbsp; &nbsp;
+        <button onclick="submit()">Submit</button>
+    </span>
+    <br> <hr> <br>
+    <!--Style all the divs with the Google Fonts Link 1st-->
+    <!--Style all the buttons with the Google Fonts Link 2nd-->
+    <!--Style all the inputs with the Google Fonts Link 2nd-->
+    <div id="display_array"></div>
+    <br> <hr>
+
+    <h1>Guest List</h1>
+    <button onclick="show()">Show</button>
+    <br> <br>
+    <div id="display_without_commas"></div>
+    <br> <hr> <br>
+
+    <button onclick="sort()">Sorted List</button> 
+    <br> <br>
+    <div id="display_after_sorting"></div>
+    <br> <hr> <br>
+
+    <span>
+        <input id="search_input" type="text" placeholder="Search..."> &nbsp; &nbsp; &nbsp; &nbsp;
+        <button onclick="search()">Search</button>
+    </span> <br> <br>
+    <div id="found_not_found"></div> <br>
+    </center>
+</body>
+
+</html>
